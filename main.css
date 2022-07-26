@@ -1,0 +1,714 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+
+    
+}
+
+section {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    background: linear-gradient(#fff ,  rgb(238, 242, 247, 1));
+}
+
+.block {
+    width: 1200px;
+    height: 100%;
+}
+
+.block2 {
+    width: 1200px;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.block3 {
+    width: 1200px;
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+section:nth-of-type(3){
+    height:1100px ;
+}
+
+.block4 {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.block5 {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.home {
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.number {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number a {
+    font-size: 20px;
+    color: #817E97;
+    border-color: transparent;
+    border-style: solid;
+    margin-right: 20PX;
+}
+
+.number button {
+    width: 300px;
+    height: 55px;
+    margin-right: 20PX;
+    color: #807100;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 700;
+    border-width: 1px;
+    border-radius: 30px;
+    background-color: #ffde01;
+    background-position: center center;
+    border-color: transparent;
+}
+
+.number button:hover {
+    background-color: #221D4F;
+    color: #F8F8F9;
+}
+
+.number button:hover a {
+    color: #F8F8F9;
+}
+
+.text {
+    width: 100%;
+    height: 900px;
+    background: url(https://thumb.tildacdn.com/tild3563-3165-4265-b866-616465363265/-/resize/940x/-/format/webp/Laptop_sloi_web_2.png);
+    background-position: top right;
+    background-size: 800px;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+
+    align-items: center;
+}
+
+.text00 {
+    width: 100%;
+    height: 900px;
+    background: url(https://thumb.tildacdn.com/tild3563-3165-4265-b866-616465363265/-/resize/940x/-/format/webp/Laptop_sloi_web_2.png);
+    background-position: top right;
+    background-size: 800px;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    margin: 10% auto;
+    align-items: center;
+}
+
+.text0 {
+    width: 100%;
+    height: 900px;
+    background: url(https://thumb.tildacdn.com/tild3733-6637-4164-a631-346365396166/-/resize/640x/-/format/webp/PL.png);
+    background-position: top right;
+    background-size: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 300px;
+
+    align-items: center;
+}
+
+.title{
+    transition: 1s linear;
+}
+.dddd{
+
+    transition: 1s linear;
+}
+.oneBOX{
+    
+    transition: 0.5s linear;
+}
+.twoBOX{
+    
+    transition: 0,5s linear;
+}
+.triBOX{
+    
+    transition: 0,5s linear;
+}
+
+.text2 h1 {
+    color: #221d4f;
+    font-size: 51px;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    line-height: 1.50;
+    font-weight: 600;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-left: 20px;
+}
+
+.blockHead h1 {
+    color: #221d4f;
+    font-size: 60px;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    line-height: 1.50;
+    font-weight: 600;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-left: 20px;
+}
+.blockHead{
+    margin-bottom: 900px;
+    transform: translateX(150%);
+    transition: 0.6s ease-in;
+
+}
+
+.text2 h2 {
+    color: #221d4f;
+    font-size: 35px;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    line-height: 1.50;
+    font-weight: 600;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-left: 20px;
+}
+
+.text2 p {
+    color: #817e97;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    line-height: 1.15;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-left: 20px;
+
+}
+
+.blockHead p {
+    color: #817e97;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    line-height: 1.15;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.home>img {
+    width: 230px;
+    height: 43px;
+    margin: 10px;
+
+}
+
+.button {
+    width: 620px;
+    height: 115px;
+    transform: translateY(110%);
+    transition: 0.9s ease-in;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button button {
+    width: 300px;
+    height: 55px;
+    color: #221d4f;
+    font-size: 18px;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 700;
+    border-width: 1px;
+    border-radius: 30px;
+    background-color: #ffde01;
+    background-position: center center;
+    border-color: transparent;
+
+}
+.button1 button {
+    width: 160px;
+    height: 50px;
+    color: #221d4f;
+    font-size: 18px;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 700;
+    border-width: 1px;
+    border-radius: 30px;
+    background-color: #ffde01;
+    background-position: center center;
+    border-color: transparent;
+
+}
+
+.button button:hover {
+    color: #FFFFFF;
+    background-color: #221D4F;
+}
+.button1 button:hover {
+    color: #FFFFFF;
+    background-color: #221D4F;
+}
+
+
+.b1>a {
+    font-size: 18px;
+    color: #221d4f;
+
+}
+.b2>a {
+    font-size: 18px;
+    color: #221d4f;
+
+}
+
+
+.b1 i {
+    color: #ffde01;
+
+}
+.b2 i {
+    color: #ffde01;
+
+}
+
+
+.b1 {
+    margin-right: 150px;
+}
+
+
+.block123{
+    width: 820px;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 50px;
+    transform: translateX(-110%);
+    transition: 0.9s ease-in;
+
+
+}
+
+.imgLogo {
+    width: 160px;
+    height: 234px;
+    background-color: #ffde01;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    width: 460px;
+    height: 298px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blockCard {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+
+.cardHead {
+    width: 100%;
+    height: 106px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffde01;
+    border-radius: 20px;
+}
+
+.cardLi {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.cardLi li {
+    list-style: none;
+    font-size: 20px;
+    color: #817E97;
+    line-height: 30px;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+}
+
+.cardLi li::before {
+    content: "\2022";
+    font-weight: 700;
+    color: #ffde01;
+    margin: 10px;
+}
+
+.cardHead>h1 {
+    color: #221d4f;
+    font-size: 24px;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    line-height: 1.15;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BlockLogo{
+    width: 100%;
+    height: 390px;
+}
+.BlockNumber{
+    width: 100%;
+    height: 570px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.LogoText{
+    width: 100%;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.LogoText h3{
+   margin-top: 40px;
+}
+
+.logotip{
+    width: 100%;
+    height: 131px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logotip div img{
+    width: 150px;
+    height: 100%;
+    margin-left: 20px;
+}
+form{
+    width: 538px;
+    height: 338px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #F5F7FA;
+    box-shadow: 0 0 10px gray;
+    border-radius: 20px;
+}
+form .input{
+    width: 460px;
+    height: 50px;
+    border: none;
+}
+
+form .input input{
+    width: 460px;
+    height: 50px;
+    outline: none;
+    border: none;
+}
+.ConsultantInput input{
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: none;
+
+}
+.buttonText{
+    width: 460px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: RGB(129, 126, 151);
+}
+.ConsultanFlag{
+    width: 61px;
+    height: 50px;
+
+}
+
+.input:nth-of-type(3){
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.input:nth-of-type(3)>input{
+    width: 353px;
+    height: 50px;
+    border:none ;
+    outline: none;
+}
+    
+.flag{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.flag>span::before{
+    content: url(/russia.png);
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.ConsultantInput .ConsultantFlag>span::before{
+    content: url(/russia.png);
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.buttonText p{
+    font-size: 15px;
+}
+
+.fNumber{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fNumber a{
+    font-size:20px;
+    color:RGB(129, 126, 151);
+}
+.consultant{
+    width: 100%;
+    height: 204px;
+    background-color: #ffde01;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    display: flex;
+}
+.ConsultantText{
+    width: 740px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ConsultantText h1{
+    font-size: 40px;
+    margin:0px 150px 20px 0px;
+    letter-spacing: 1px;
+}
+
+.ConsultantInput{
+    width: 400px;
+    height: 40px;
+    background-color: #F5F7FA;
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    margin:25px 150px 0 0;
+}
+.b2{
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #e2defa;
+
+}
+.bb p{
+    display: flex;
+    margin-right: 220px;
+    align-items: center;
+    flex-direction: column;
+    color: #221d4f;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans',Arial,sans-serif;
+    opacity: 0.5;
+    background-position: center center;
+    border-color: transparent;
+
+    
+}
+.Consultant2{
+    width: 100%;
+    height: 400px;
+    background-color: #ffde01;
+    transform: translateY(-30%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+   
+
+
+}
+.ConsultantTextIn h1{
+    color: #221d4f;
+    font-size: 50px;
+    font-family: 'IBM Plex Sans',Arial,sans-serif;
+    line-height: 1;
+    font-weight: 600;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    
+}
+.ConsultantTextIn p{
+    color: #221d4f;
+    font-size: 20px;
+    font-family: 'IBM Plex Sans',Arial,sans-serif;
+    line-height: 1.15;
+    font-weight: 400;
+    opacity: 0.7;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    
+}
+.ConsultantButton p{
+    color: #221d4f;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans',Arial,sans-serif;
+    line-height: 1.15;
+    font-weight: 400;
+    opacity: 0.5;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    
+}
+.ConsultantPhoto img{
+    width: 310px;
+    height: 475px;
+    margin:0 50px 70px 0;
+}
+.card1,
+.card3{
+    transform: translateY(100%);
+    transition: 0.6s;
+}
+.card2,
+.card4{
+    transform: translateY(-100%);
+    transition: 0.6s;
+}
+.ConsultantText2{
+    transform: translateX(-150%);
+    transition: 0.5s ease-in;
+}
+.ConsultantPhoto{
+    transform: translateX(150%);
+    transition: 0.5s ease-in;
+}
+.text0101{
+    transform: translateX(-100%);
+    transition: 0.5s;
+}
+.text0{
+    transform: translateX(100%);
+    transition: 0.5s;
+   
+}
+/* 3073 */
+.consultant{
+    transform: translateX(-100);
+    transition: 0.5s;
+}
+.text00{
+    transform: translateY(-100%);
+    transition: 0.5s;
+}
+/* 4409 */
+.BlockLogo{
+    transform: translateY(100%);
+    transition: 0.5s;
+}
+.text02{
+    transform: translateX(110%);
+    transition: 0.6s;
+}
+.form{
+    transform: translateX(-110%);
+    transition: 0.6s;
+}
